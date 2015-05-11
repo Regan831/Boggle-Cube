@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ Main\ method\ used\ to\ run\ boggle\ cube.\n
+comment1.params=filenameString\ filenameWords
+comment1.target=BoggleCube(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ boggle\ cube\ object.\ Reads\ in\ the\ word\ list\ and\ the\ string\n\ of\ characters.\ Sets\ the\ edges\ of\ each\ space\ on\ the\ board.\ Adds\ each\ space\n\ to\ the\ array\ of\ spaces.\ Gives\ the\ spaces\ the\ proper\ character\ value.\ Then\n\ starts\ the\ recursive\ search\ for\ each\ word.\n\ @param\ filenameString\ is\ the\ variable\ for\ the\ 24\ characters\n\ @param\ filenameWords\ is\ the\ string\ variable\ for\ the\ word\ list\n
+comment2.params=space\ original\ sub
+comment2.target=boolean\ recursiveFind(Space,\ java.lang.String,\ java.lang.String)
+comment2.text=\n\ Method\ to\ search\ if\ each\ word\ is\ in\ the\ word\ list.\ Looks\ at\ a\ word\ from\n\ the\ word\ list\ then\ recursively\ tries\ to\ find\ it\ on\ the\ cube.\ Creates\ a\ \n\ string\ to\ compare\ to\ the\ original\ string\ to\ see\ if\ there\ is\ a\ match.\n\ @param\ space\ the\ space\ that\ the\ method\ is\ currently\ looking\ at\n\ @param\ original\ is\ the\ word\ from\ the\ word\ list\ that\ it\ is\ trying\ to\ match\n\ @param\ sub\ is\ the\ current\ sub-string\ that\ has\ been\ created\ to\ compare\ to\ \n\ original\n\ @retrun\ boolean\ of\ whether\ or\ not\ the\ string\ has\ been\ found\n
+numComments=3
